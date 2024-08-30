@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: brr
+  datasource:
+    url: jdbc:postgresql://localhost:5432/brr
+    username: postgres
+    password: "f3300955"
+  jpa:
+    hibernate:
+      ddl-auto: update
+server:
+  port: 5656
+
